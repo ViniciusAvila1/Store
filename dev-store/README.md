@@ -1,8 +1,5 @@
-# React + Vite
+# Online Store Product Listing
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is a simple web application that consumes a RESTful API to retrieve and display a list of products from an online store. The application provides users with an intuitive interface to browse available products and view its details.
