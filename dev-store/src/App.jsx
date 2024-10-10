@@ -9,7 +9,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route index element={<ListProducts />} />
-          <Route path='/productsID' element={<ProductsID />} />
+          <Route path='/productsID/:id' element={<ProductsID />} />
         </Routes>
       </BrowserRouter>
     </>

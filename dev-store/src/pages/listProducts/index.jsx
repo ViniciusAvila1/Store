@@ -28,11 +28,12 @@ export const ListProducts = () => {
                     {data.map((item, index) => {
                         return (
                             <div className={styles.listProduct} key={index}>
-                               <Link className={styles.link}>
+                                {/* item.id que vem da API */}
+                               <Link to={`/productsID/${item.id}`} className={styles.link}>
                                <img src={item.category.image} alt='' width={200}/>
                                <h2>{item.title}</h2>
                                <br/>
-                               <button className={styles.btn}>Mais informações</button>
+                               <button className={styles.btn}>Detalhes</button>
                                </Link> 
                             </div>
                         )
