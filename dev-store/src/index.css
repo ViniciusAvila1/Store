@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+}
+
+html {
+  overflow-y: scroll; /* Forçando a barra lateral para manter o título centralizado ao clicar em um produto */
+}
+
+h2,
+h4,
+strong {
+  font-family: "Karla", sans-serif;
+}
