@@ -39,8 +39,14 @@ export const ProductsID = () => {
             <p>
               <strong>Description:</strong> {itemID.description}
             </p>
-            <Link title="Back to products list" to={"/products"}>
+
+            <Link
+              className={styles.backBtn}
+              title="Back to products list"
+              to={"/"}
+            >
               <TiArrowBack />
+              Back
             </Link>
           </div>
         </ul>

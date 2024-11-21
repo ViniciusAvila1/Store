@@ -1,0 +1,50 @@
+.ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.info {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  margin-top: 20px;
+  padding: 15px;
+  width: 25%;
+  box-shadow: 4px 5px 8px 2px #ddd;
+}
+
+.info img {
+  width: 200px;
+  border-radius: 6px; /* borda arredondada nas imagens */
+}
+
+.info h2 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.backBtn {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  text-decoration: none;
+  background-color: #f5f5f5;
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: #333;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 5px; /*gap entre o ícone e o texto*/
+}
+
+.backBtn:hover {
+  background-color: #e0e0e0;
+  color: #000;
+}
