@@ -33,11 +33,11 @@ export const ProductsID = () => {
         <ul className={styles.ul}>
           <div className={styles.info}>
             <img src={itemID.images[0]} alt={itemID.title} />
-            <h2>Product: {itemID.title}</h2>
-            <strong>Price: {itemID.price}</strong>
+            <h3>Product: {itemID.title}</h3>
+            <strong>Price: ${itemID.price}</strong>
             <h3>Category: {itemID.category.name}</h3>
             <p>
-              <strong>Description:</strong> {itemID.description}
+              <strong>Description:</strong> <br /> {itemID.description}
             </p>
 
             <Link

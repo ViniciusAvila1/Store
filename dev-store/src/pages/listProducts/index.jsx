@@ -30,10 +30,10 @@ export const ListProducts = () => {
                 <Link to={`/products/${item.id}`} className={styles.link}>
                   <img src={item.images[0]} alt="" width={200} />
                   <h2>{item.title}</h2>
-                  <strong>R$: {item.price}</strong>
+                  <strong>${item.price}</strong>
                   <br />
                   <button className={styles.btnDetails}>
-                    <span>Details</span>
+                    <span>More details</span>
                   </button>
                 </Link>
               </div>
