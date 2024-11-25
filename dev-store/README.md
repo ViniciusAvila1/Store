@@ -48,6 +48,11 @@ src/
 └── main.jsx                  // Entrada principal do React
 ```
 
+## 📄 Notas Adicionais
+
+- A aplicação utiliza a [Platzi Fake Store API](https://api.escuelajs.co/api/v1/products) como fonte de dados.
+- Design responsivo implementado para uma boa experiência em diferentes tamanhos de tela.
+
 ## 🧑‍💻 Desenvolvedor
 
 - **Nome:** Vinícius Vicente Ávila Lima
