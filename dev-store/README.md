@@ -30,7 +30,7 @@ Este projeto é uma aplicação web desenvolvida em **React** utilizando **Vite*
 ## 🌐 Acesso à Aplicação
 
 Acesse o projeto online através do seguinte link:  
-**[DEV-STORE](https://dev-store-zeta.vercel.app/products)**
+**[DEV-STORE](https://dev-store-iota.vercel.app/products)**
 
 ---
 
